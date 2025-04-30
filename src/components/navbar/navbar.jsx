@@ -18,7 +18,7 @@ return (
         <div className="bar"></div>
         </div>
 
-        <img className="navbar-logo" src="/assets/logo.png" alt="Logo" />
+        <a href='/' className='logo-link'><img className="navbar-logo" src="/assets/logo.png" alt="Logo" /></a>
 
         <ul className="navbar-links">
         <li><a href="#about" className="navbar-link">About</a></li>
